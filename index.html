@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Addoh's PalWorld Server Config Generator</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="https://static.wixstatic.com/media/f8429d_3dc22015906f4c1e98dfc6e1d97267f0~mv2.png/v1/fill/w_980,h_337,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f8429d_3dc22015906f4c1e98dfc6e1d97267f0~mv2.png" alt="PalWorld Logo">
+        <h1 class="title">Server Config Generator</h1>
+    </header>
+
+    <main class="container">
+        <section id="optionsContainer">
+            <!-- Options will be dynamically added here using script.js -->
+        </section>
+
+        <button class="generate-button" onclick="generateINI()">Generate Config</button>
+
+        <section id="iniResultContainer">
+            <h3>Generated Config</h3>
+            <textarea id="iniResult" readonly></textarea>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Created By Addoh - 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
